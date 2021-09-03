@@ -1,0 +1,17 @@
+[package]
+name = "firestore-serde-timestamp"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+prost = "0.8.0"
+prost-types = "0.8.0"
+serde = "1.0.130"
+serde_bytes = "0.11.5"
+
+[dev-dependencies]
+firestore-serde = {path="../firestore-serde"}
+googapis = "0.5.0"

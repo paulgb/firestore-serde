@@ -1,0 +1,22 @@
+[package]
+name = "firestore-serde"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.1.0"
+chrono = "0.4.19"
+googapis = { version = "0.5.0" }
+prost = "0.8.0"
+prost-types = "0.8.0"
+serde = { version = "1.0.130", features = ["derive"] }
+serde_bytes = "0.11.5"
+
+[features]
+default = ["google-firestore-v1"]
+google-firestore-v1 = ["googapis/google-firestore-v1"]
+google-firestore-v1beta1 = ["googapis/google-firestore-v1beta1"]
+
+[dev-dependencies]

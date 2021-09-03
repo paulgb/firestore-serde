@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "firestore-serde",
+    "firestore-serde-timestamp",
+]
