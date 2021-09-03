@@ -1,6 +1,6 @@
 use super::SerializationError;
 use crate::serialize::Result;
-use googapis::google::firestore::v1::{value::ValueType, Value};
+use crate::firestore::{value::ValueType, Value};
 use prost::Message;
 use prost_types::Timestamp;
 use serde::{Serialize, Serializer};
