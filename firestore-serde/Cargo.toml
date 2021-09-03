@@ -1,6 +1,6 @@
 [package]
 name = "firestore-serde"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 description = "A Rust serializer/deserializer for Google Cloud Firestore."
 readme = "../README.md"
