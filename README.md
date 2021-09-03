@@ -1,5 +1,7 @@
 # `firestore-serde`
 
+[![wokflow state](https://github.com/paulgb/firestore-serde/workflows/rust/badge.svg)](https://github.com/paulgb/firestore-serde/actions/workflows/rust.yml)
+
 `firestore-serde` is a serializer/deserializer implementation for Firestore `Value`s and `Document`s.
 
 This allows you to store arbitrary Rust values in a Firestore database, but this crate does _not_ handle

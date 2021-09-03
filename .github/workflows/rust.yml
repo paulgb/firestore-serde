@@ -3,6 +3,11 @@ name: Rust
 on:
   push:
     branches: [ main ]
+    paths:
+    - 'firestore-serde'
+    - 'firestore-serde-timestamp'
+    - 'Cargo.toml'
+    - 'Cargo.lock'
   pull_request:
     branches: [ main ]
 

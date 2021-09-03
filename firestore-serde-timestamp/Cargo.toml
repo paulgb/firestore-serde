@@ -2,8 +2,11 @@
 name = "firestore-serde-timestamp"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A timestamp serialization helper for firestore-serde."
+readme = "../README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["firestore", "gcp"]
+repository = "https://github.com/paulgb/firestore-serde"
 
 [dependencies]
 chrono = "0.4.19"
@@ -13,5 +16,5 @@ serde = "1.0.130"
 serde_bytes = "0.11.5"
 
 [dev-dependencies]
-firestore-serde = {path="../firestore-serde"}
+firestore-serde = {path="../firestore-serde", version="0.1.0"}
 googapis = "0.5.0"
