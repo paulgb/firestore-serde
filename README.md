@@ -1,6 +1,7 @@
 # `firestore-serde`
 
 [![wokflow state](https://github.com/paulgb/firestore-serde/workflows/Rust/badge.svg)](https://github.com/paulgb/firestore-serde/actions/workflows/rust.yml)
+[![crates.io](https://img.shields.io/crates/v/firestore-serde.svg)](https://crates.io/crates/firestore-serde)
 
 `firestore-serde` is a serializer/deserializer implementation for Firestore `Value`s and `Document`s.
 
