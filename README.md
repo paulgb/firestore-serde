@@ -13,7 +13,7 @@ to fit into a stack of other crates:
 over [`gRPC`](https://grpc.io/).
 - [`googapis`](https://github.com/mechiru/googapis) for Firebase gRPC message
 definitions, derived from the [official API definitions](https://github.com/googleapis/googleapis) using [`prost`](https://github.com/tokio-rs/prost).
-- [`gouth`](https://github.com/mechiru/gouth) for authentication.
+- [`google-authz`](https://github.com/mechiru/google-authz) for authentication/credential discovery.
 
 ## Preliminaries
 
