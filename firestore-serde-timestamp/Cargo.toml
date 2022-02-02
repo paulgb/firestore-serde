@@ -1,6 +1,6 @@
 [package]
 name = "firestore-serde-timestamp"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2018"
 description = "A timestamp serialization helper for firestore-serde."
 readme = "../README.md"
@@ -16,5 +16,5 @@ serde = "1.0.136"
 serde_bytes = "0.11.5"
 
 [dev-dependencies]
-firestore-serde = {path="../firestore-serde", version="0.1.0"}
+firestore-serde = {path="../firestore-serde", version="0.1.2"}
 googapis = "0.6.0"
