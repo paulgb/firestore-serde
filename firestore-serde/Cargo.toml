@@ -11,10 +11,10 @@ repository = "https://github.com/paulgb/firestore-serde"
 [dependencies]
 bytes = "1.1.0"
 chrono = "0.4.19"
-googapis = { version = "0.5.0" }
-prost = "0.8.0"
-prost-types = "0.8.0"
-serde = { version = "1.0.130", features = ["derive"] }
+googapis = { version = "0.6.0" }
+prost = "0.9.0"
+prost-types = "0.9.0"
+serde = { version = "1.0.136", features = ["derive"] }
 serde_bytes = "0.11.5"
 
 [features]
